@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+:root {
+  /* font variables are defined by next/font in layout.tsx */
+}
+
+body {
+  @apply bg-creamBackground text-darkText font-body;
+}
