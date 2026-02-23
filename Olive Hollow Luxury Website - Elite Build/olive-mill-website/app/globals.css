@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* font variables are defined by next/font in layout.tsx */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-creamBackground text-darkText font-body antialiased;
+}
+
+::selection {
+  background: rgba(198, 169, 107, 0.35);
+}
+
+a {
+  @apply outline-none;
+}
